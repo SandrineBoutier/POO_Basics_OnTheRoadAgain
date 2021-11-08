@@ -56,5 +56,7 @@ $ruedelasoif->addVehicle($fourgonnette);
 $ruedelasoif->addVehicle($planche);
 var_dump($ruedelasoif);
 
+$bike->setCurrentSpeed(15);
+echo $bike->switchOn();
 
 
